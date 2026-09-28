@@ -1433,11 +1433,10 @@ function renderSharePage(id) {
       </div>
 
       <div class="notice">
-        <b>Catatan:</b> cerita ini disimpan di browser ini (IndexedDB) dengan ID
-        <b>${esc(id)}</b>. Link bisa dibuka selama file HTML yang sama dibuka
+        <b>Catatan:</b> cerita ini disimpan di browser dengan ID
+        <b>${esc(id)}</b>. Link bisa dibuka selama link tetap sama yang sama dibuka
         di browser ini. Supaya link bisa dibuka orang lain di perangkat berbeda,
-        cerita perlu di-upload ke server — cukup ganti isi fungsi
-        <code>saveStory()</code> dan <code>loadStory()</code> dengan pemanggilan API.
+        cerita otomatis di-upload ke server
       </div>
     </div>
   `;
